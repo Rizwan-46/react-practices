@@ -1,0 +1,58 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 60.2%;
+}
+.steps{
+  max-width: 600px;
+  margin: 50px auto;
+  border-radius: 10px;
+  height: 30vh;
+  background-color: #d3d3d3;
+}
+.numbers{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.numbers > div{
+  height: 40px;
+  aspect-ratio: 1;
+  margin: 10px;
+  border-radius: 50%;
+  background-color: #e7e7e7;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+}
+.numbers .active{
+  background-color:blue;
+  color: #fff;
+}
+.message{
+  text-align: center;
+  font-size: 2rem;
+  margin:40px;
+  font-weight: bold;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttons{
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttons > button{
+  background-color: blue;
+  border-radius: 30px;
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
